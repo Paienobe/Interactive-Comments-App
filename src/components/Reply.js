@@ -17,7 +17,6 @@ const Reply = ({
   resetScore,
   deactivateModal,
   currentUser,
-  finishEdit,
   displayReplyInput,
   commentID,
   editReply,
@@ -71,7 +70,6 @@ const Reply = ({
               className='insertReply'
               onClick={(e) => {
                 e.preventDefault()
-                finishEdit(commentID, replyText)
                 setReplyText('')
                 setIsEditing(false)
                 editReply(id, replyText)
