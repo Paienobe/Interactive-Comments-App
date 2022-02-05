@@ -2,8 +2,6 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This is an interactive comments section. Users can create comments, reply to comments, edit and delete their own comments. Local storage is used to preserve data.
-
 ## Available Scripts
 
 In the project directory, you can run:
