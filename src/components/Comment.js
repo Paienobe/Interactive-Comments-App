@@ -176,7 +176,6 @@ const Comment = ({
               deleteReply={deleteReply}
               deactivateModal={deactivateModal}
               currentUser={currentUser}
-              finishEdit={finishEdit}
               displayReplyInput={displayReplyInput}
               commentID={id}
               editReply={editReply}
